@@ -156,7 +156,7 @@ Results folder
 - conversion_metrics_summary.csv
 
 
-Key Metrics Summary
+## Key Metrics Summary
 
 
 | Metric | Value |
@@ -172,15 +172,45 @@ Key Metrics Summary
 | **Previous Contact Lift** | 2.5x |
 
 
-
-How to Use This Analysis
-
+## How to Use This Analysis
 
 Immediate Actions: Re-contact customers with previous successful campaigns and prioritize the seniors
 Campaign Design: Create age-specific messaging for 66+ demographic
 Agent Training: Focus on call quality/duration (5+ min targets).
 Budgeting: Shift budget allocation to high-performing segments
 
+## How to Run This Repository
+
+# Project Name
+
+A brief, one-sentence description of what this repository does.
+
+## How to Use This Repository
+
+Follow these terminal commands to set up the environment and run the code.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/AlainRegisDev88/FUTURE_DS_03
+cd 
+
+# 2. Set up a virtual environment (Optional but recommended)
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+
+# 3. Install required packages
+pip install --upgrade pip
+pip install jupyter notebook pandas numpy matplotlib
+
+# 4. Launch Jupyter
+jupyter notebook
+```
+
+## ⚠️ Important Note on File Paths
+
+Always open and run notebooks from the **main directory**. 
+
+Do **not** open or run files found inside the hidden `.ipynb_checkpoints/` directory. Running code from inside that folder changes your working directory and will break all relative data file paths.
 
 
 Author
